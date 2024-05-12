@@ -1,0 +1,100 @@
+.product_detail{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 120px;
+}
+.product_detail .image_l{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+.product_detail .image_l .side_imgs{
+    max-width: 100%;
+    margin-top:10px ;
+}
+.product_detail .image_r{
+    width: 550px;
+    margin-right:100px ;
+}
+.product_detail .image_r .side_imgs{
+    max-width: 100%;
+    margin: 10px 25px;
+}
+.product_detail .data{
+    display: flex;
+    flex-direction: column;
+}
+.product_detail .data .title_price{
+    width: 500px;
+}
+.product_detail .data .buy{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 15px;
+    height: 50px;
+    /* margin: 5px; */
+}
+.product_detail .data .buy .counter{
+    display: flex;
+    max-width: 140px;
+    justify-items: center;
+    margin-right: 60px;
+}
+.product_detail .data .buy .counter .minus {
+    border:1px solid grey;
+    width: 25%;
+    border-radius: 4px 0px 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.product_detail .data .buy .counter .minus:hover{
+    background-color: #d73333;
+    border: none;
+    color: white;
+}
+.product_detail .data .buy .counter .number{
+    border:1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+.product_detail .data .buy .counter .plus{
+    border:1px solid grey;
+    border-radius: 0px 4px 4px 0px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
+
+}
+.product_detail .data .buy .counter .plus:hover{
+    background-color: #d73333;
+    color: white;
+    border: none;
+}
+.product_detail .data .buy .button{
+    background-color: #d73333;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    /* padding: 0px 50px; */
+    margin-right: 20px;
+}
+.product_detail .data .buy .icon_button{
+    border: 1px solid grey;
+    border-radius: 5px ;
+    font-size: 30px;
+    background-color: white;
+}

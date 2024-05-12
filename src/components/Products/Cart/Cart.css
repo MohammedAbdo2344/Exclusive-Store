@@ -1,0 +1,54 @@
+.cart{
+    margin: 50px 120px;
+}
+.cart .table{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.table .data{
+    margin:15px 30px;
+}
+.table .data .img{
+    width: 20%;
+    margin-right: 5px;
+}
+
+.recept{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* width: 60%; */
+}
+.recept .coupon{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+.recept .coupon .input{
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+.recept .coupon button ,.total button{
+    padding: 10px 30px;
+    background-color: #d73333;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.recept .total{
+    border: 3px solid black;
+    padding: 30px 30px;
+    width:40%;
+    text-align: center;
+}
+.recept .total .checkout_data{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+.contact{
+    margin: 50px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    padding: 30px 40px;
+}
+.contact_left .top{
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact_left .top_icon{
+    font-size: 20px;
+    margin-right: 20px;
+    border: 1px solid hsla(0, 67%, 52%);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsla(0, 67%, 52%);
+    color: white;
+}
+.contact_left .top{
+    display: flex;
+}
+.contact_right{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    align-content: center;
+    justify-content: center;
+}

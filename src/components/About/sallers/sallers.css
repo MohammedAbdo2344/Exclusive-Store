@@ -1,0 +1,29 @@
+.sallers{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.saller{
+    /* border: 1px solid gray; */
+    border-radius: 5px 5px 5px 5px ;
+    margin: 20px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saller:hover{
+    background-color :#d73333;
+    color: white;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}

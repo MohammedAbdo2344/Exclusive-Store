@@ -1,0 +1,23 @@
+.navbar{
+    padding: 25px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.container .nav .nav-link{
+    color: black; 
+}
+.container .nav .nav-link:hover{
+    color: hsla(0, 67%, 52%, 0.67);
+}
+.container .nav .active{
+    /* border: 2px solid black; */
+    border-radius: 5px 5px;
+    background-color: hsla(0, 67%, 52%);
+    color: white;
+}
+.container .nav .active:hover{
+    color: white;
+}

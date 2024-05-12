@@ -1,0 +1,22 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title .empty-div {
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: hsl(0, 67%, 52%);
+    width: 20px;
+    height: 40px;
+}
+
+.title .header {
+    margin-left: 20px;
+    color: red;
+    margin-top: 5px;
+}
+
+.subtitle {
+    margin-top: 15px;
+}

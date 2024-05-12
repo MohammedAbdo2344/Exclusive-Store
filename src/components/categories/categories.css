@@ -1,0 +1,36 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: left;
+    max-width: 25%;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.category:hover{
+    background-color: hsl(0, 67%, 52%);;
+    color: white;
+    border: 1px solid hsl(0, 67%, 52%);;;
+}
+
+.category .icon{
+    margin-top: 15px;
+    font-size: 200%;
+}
+.category .title{
+    margin-top:10px ;
+}

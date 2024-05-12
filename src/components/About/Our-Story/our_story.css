@@ -1,0 +1,10 @@
+.our-story{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.our-story .story{
+    margin-right: 15px;
+}

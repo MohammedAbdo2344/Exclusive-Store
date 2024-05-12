@@ -1,0 +1,26 @@
+.page{
+    margin-top: 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    margin: 25px;
+    text-align: left;
+    max-width: 25%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
+}
+.product .product-img{
+    /* height: 100%; */
+    width: 100%;
+}
+.product .product-title{
+    margin-top: 10px;
+}
