@@ -39,7 +39,7 @@ function Header() {
                     </li>
                 </ul>
                 <div className="col-md-3 text-end">
-                    <NavLink to="/cart" className="nav-link px-2" z>
+                    <NavLink to="/cart" className="nav-link px-2">
                         <FontAwesomeIcon icon={faCartShopping} /> {cartItems.length}
                     </NavLink>
                 </div>
